@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "Prep for release",
+  "packageName": "priority-queue",
+  "email": "busratemizyureek@gmail.com",
+  "dependentChangeType": "patch"
+}
