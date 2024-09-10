@@ -4,7 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
-    "change": "beachball change",
+    "change": "beachball change --no-commit",
     "checkchange": "beachball check",
     "release": "beachball publish"
   },
