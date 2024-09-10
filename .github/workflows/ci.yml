@@ -23,5 +23,6 @@ jobs:
         cache: 'npm'
         registry-url: 'https://registry.npmjs.org'
     - run: npm ci
+    - run: npm run checkchange
     - run: npm run build --workspaces
     - run: npm test --workspaces
