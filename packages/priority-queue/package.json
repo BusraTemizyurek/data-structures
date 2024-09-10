@@ -1,7 +1,7 @@
 {
   "name": "priority-queue",
   "version": "0.0.0",
-  "description": "",
+  "description": "A modular and efficient implementation of a Priority Queue with enqueue-optimized and dequeue-optimized strategies.",
   "main": "lib/index.js",
   "scripts": {
     "test": "jest",
@@ -9,12 +9,24 @@
     "start": "node lib/index.js",
     "prestart": "npm run build"
   },
-  "author": "",
+  "author": "Busra Temizyurek",
   "license": "ISC",
+  "repository": {
+    "url": "https://github.com/BusraTemizyurek/data-structures/tree/main/packages/priority-queue"
+  },
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "jest": "^29.7.0",
     "ts-jest": "^29.2.5",
     "typescript": "^5.6.3"
-  }
+  },
+  "keywords": [
+    "priority-queue",
+    "data-structures",
+    "typescript",
+    "enqueue",
+    "dequeue",
+    "optimization",
+    "algorithms"
+  ]
 }

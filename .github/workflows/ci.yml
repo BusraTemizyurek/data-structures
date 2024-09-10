@@ -26,3 +26,4 @@ jobs:
     - run: npm run checkchange
     - run: npm run build --workspaces
     - run: npm test --workspaces
+    - run: npm run release --token ${{ secrets.NPM_TOKEN }}
