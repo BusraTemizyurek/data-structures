@@ -26,13 +26,13 @@ jobs:
         cache: 'npm'
         registry-url: 'https://registry.npmjs.org'
 
-      - name: Set git credentials
-        run: |
-          git config user.email "busratemizyueek@gmail.com"
-          git config user.name "Busra Temizyurek"
-          git remote set-url origin "https://$REPO_PAT@github.com/BusraTemizyurek/data-structures"
-        env:
-          REPO_PAT: ${{ secrets.REPO_PAT }}
+    - name: Set git credentials
+      run: |
+        git config user.email "busratemizyueek@gmail.com"
+        git config user.name "Busra Temizyurek"
+        git remote set-url origin "https://$REPO_PAT@github.com/BusraTemizyurek/data-structures"
+      env:
+        REPO_PAT: ${{ secrets.REPO_PAT }}
 
     - run: npm ci
 
