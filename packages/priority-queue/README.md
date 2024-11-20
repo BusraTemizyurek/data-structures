@@ -12,14 +12,14 @@ This package provides an efficient implementation of a **Priority Queue** with t
 ## Installation
 
 ```bash
-npm install @ds/priority-queue
+npm install ds-priority-queue
 ```
 
 ## Usage
 Import the PQueue class and initialize it with the desired optimization strategy.
 
 ```ts
-import { PQueue } from '@ds/priority-queue';
+import { PQueue } from 'ds-priority-queue';
 
 const pq = new PQueue({ optimization: 'dequeue' }); // Use 'enqueue' or 'dequeue' based on your needs.
 
