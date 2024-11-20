@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "A modular and efficient implementation of a Priority Queue with enqueue-optimized and dequeue-optimized strategies.",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest",
     "build": "tsc",
