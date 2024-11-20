@@ -39,7 +39,7 @@ jobs:
     - name: Bump and Publish
       run: |
         git config user.email "busratemizyueek@gmail.com"
-        git config user.name "Busra Temizyurek"
+        git config user.name "🏖️ Beachball"
        
         trap "git remote set-url origin '$(git remote get-url origin)'" EXIT
        

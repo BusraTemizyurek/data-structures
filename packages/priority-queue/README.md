@@ -28,7 +28,6 @@ pq.enQueue('Task2', 5);
 pq.enQueue('Task3', 1);
 
 console.log(pq.deQueue()); // Outputs: 'Task2' (highest priority)
-
 ```
 
 ## Options
