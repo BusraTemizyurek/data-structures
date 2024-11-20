@@ -18,6 +18,8 @@ jobs:
       id-token: write
     steps:
     - uses: actions/checkout@v4
+      with:
+        persist-credentials: false
 
     - name: Use Node.js
       uses: actions/setup-node@v4
@@ -25,13 +27,6 @@ jobs:
         cache: 'npm'
         registry-url: 'https://registry.npmjs.org'
 
-    - name: Set git credentials
-      run: |
-        git config user.email "busratemizyueek@gmail.com"
-        git config user.name "Busra Temizyurek"
-        git remote set-url origin "https://$REPO_PAT@github.com/$GITHUB_REPOSITORY"
-      env:
-        REPO_PAT: ${{ secrets.REPO_PAT }}
 
     - run: npm ci
 
@@ -41,4 +36,17 @@ jobs:
 
     - run: npm test --workspaces
 
-    - run: npm run release -- --token ${{ secrets.NPM_TOKEN }}
+    - name: Bump and Publish
+      run: |
+        git config user.email "busratemizyueek@gmail.com"
+        git config user.name "Busra Temizyurek"
+       
+        trap "git remote set-url origin '$(git remote get-url origin)'" EXIT
+       
+        git remote set-url origin "https://$REPO_PAT@github.com/$GITHUB_REPOSITORY"
+
+        npm run release -- --token $NPM_TOKEN
+      env:
+        REPO_PAT: ${{ secrets.REPO_PAT }}
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+    
