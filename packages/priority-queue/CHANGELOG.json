@@ -2,6 +2,21 @@
   "name": "ds-priority-queue",
   "entries": [
     {
+      "date": "Wed, 20 Nov 2024 03:09:15 GMT",
+      "version": "0.1.4",
+      "tag": "ds-priority-queue_v0.1.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "busratemizyureek@gmail.com",
+            "package": "ds-priority-queue",
+            "commit": "d4f41b86e55f5f38bdd873367fef49a3f36f60e2",
+            "comment": "Fix small typo in the doc"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 20 Nov 2024 03:06:16 GMT",
       "version": "0.1.3",
       "tag": "ds-priority-queue_v0.1.3",
