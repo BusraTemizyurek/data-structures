@@ -1,7 +1,0 @@
-{
-  "type": "minor",
-  "comment": "Initial change",
-  "packageName": "ds-priority-queue",
-  "email": "busratemizyureek@gmail.com",
-  "dependentChangeType": "patch"
-}

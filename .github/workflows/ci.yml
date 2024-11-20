@@ -1,6 +1,8 @@
 # This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
 
+environment: release
+
 name: CI
 
 on:
@@ -17,17 +19,20 @@ jobs:
       id-token: write
     steps:
     - uses: actions/checkout@v4
-    
+
     - name: Use Node.js
       uses: actions/setup-node@v4
       with:
         cache: 'npm'
         registry-url: 'https://registry.npmjs.org'
 
-    - name: setup git
-      run: |
-        git config --global user.email "busratemizyueek@gmail.com"
-        git config --global user.name "Busra Temizyurek"
+      - name: Set git credentials
+        run: |
+          git config user.email "busratemizyueek@gmail.com"
+          git config user.name "Busra Temizyurek"
+          git remote set-url origin "https://$REPO_PAT@github.com/BusraTemizyurek/data-structures"
+        env:
+          REPO_PAT: ${{ secrets.REPO_PAT }}
 
     - run: npm ci
 
