@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "Add types & remove src from npm",
-  "packageName": "ds-priority-queue",
-  "email": "busratemizyureek@gmail.com",
-  "dependentChangeType": "patch"
-}
