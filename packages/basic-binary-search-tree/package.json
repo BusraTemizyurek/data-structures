@@ -1,6 +1,6 @@
 {
   "name": "basic-binary-search-tree",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Basic binary search tree",
   "repository": {
     "url": "https://github.com/BusraTemizyurek/data-structures/tree/main/packages/binary-search-tree"

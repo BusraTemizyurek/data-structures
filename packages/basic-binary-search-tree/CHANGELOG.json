@@ -2,6 +2,21 @@
   "name": "basic-binary-search-tree",
   "entries": [
     {
+      "date": "Thu, 28 Nov 2024 05:05:44 GMT",
+      "version": "1.0.7",
+      "tag": "basic-binary-search-tree_v1.0.7",
+      "comments": {
+        "patch": [
+          {
+            "author": "busratemizyureek@gmail.com",
+            "package": "basic-binary-search-tree",
+            "commit": "2148ed35ad9c0556ac35c4dc0b20636e09c32689",
+            "comment": "Move .npmignore to root"
+          }
+        ]
+      }
+    },
+    {
       "date": "Thu, 28 Nov 2024 04:48:40 GMT",
       "version": "1.0.6",
       "tag": "basic-binary-search-tree_v1.0.6",

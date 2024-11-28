@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "Move .npmignore to root",
-  "packageName": "ds-priority-queue",
-  "email": "busratemizyureek@gmail.com",
-  "dependentChangeType": "patch"
-}

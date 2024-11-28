@@ -2,6 +2,21 @@
   "name": "ds-priority-queue",
   "entries": [
     {
+      "date": "Thu, 28 Nov 2024 05:05:44 GMT",
+      "version": "0.1.5",
+      "tag": "ds-priority-queue_v0.1.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "busratemizyureek@gmail.com",
+            "package": "ds-priority-queue",
+            "commit": "2148ed35ad9c0556ac35c4dc0b20636e09c32689",
+            "comment": "Move .npmignore to root"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 20 Nov 2024 03:09:15 GMT",
       "version": "0.1.4",
       "tag": "ds-priority-queue_v0.1.4",

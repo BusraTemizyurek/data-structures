@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "Move .npmignore to root",
-  "packageName": "basic-binary-search-tree",
-  "email": "busratemizyureek@gmail.com",
-  "dependentChangeType": "patch"
-}
