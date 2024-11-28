@@ -10,6 +10,7 @@ Welcome to the **Data Structures Library**, a modular and easy-to-use collection
 
 ## Available Data Structures
 
-- [Priority Queue](./packages//priority-queue/README.md)
+- [Priority Queue](./packages/priority-queue/README.md)
+- [Binary Search Tree](./packages/basic-binary-search-tree/README.md)
 
 - More coming soon!
