@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "Fixing type issue in bst",
+  "packageName": "basic-binary-search-tree",
+  "email": "busratemizyureek@gmail.com",
+  "dependentChangeType": "patch"
+}
