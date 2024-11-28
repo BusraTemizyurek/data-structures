@@ -1,0 +1,20 @@
+{
+  "name": "basic-binary-search-tree",
+  "entries": [
+    {
+      "date": "Thu, 28 Nov 2024 04:30:07 GMT",
+      "version": "1.0.5",
+      "tag": "basic-binary-search-tree_v1.0.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "busratemizyureek@gmail.com",
+            "package": "basic-binary-search-tree",
+            "commit": "d02c8934bef25b723117778a1221befe8c1fc300",
+            "comment": "Fixing type issue in bst"
+          }
+        ]
+      }
+    }
+  ]
+}
