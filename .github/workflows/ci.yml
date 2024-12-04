@@ -5,9 +5,9 @@ name: CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
 
 jobs:
   build:
@@ -17,36 +17,35 @@ jobs:
       contents: read
       id-token: write
     steps:
-    - uses: actions/checkout@v4
-      with:
-        persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
-    - name: Use Node.js
-      uses: actions/setup-node@v4
-      with:
-        cache: 'npm'
-        registry-url: 'https://registry.npmjs.org'
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          cache: "npm"
+          registry-url: "https://registry.npmjs.org"
 
+      - run: npm ci
 
-    - run: npm ci
+      - run: npm run checkchange
 
-    - run: npm run checkchange
+      - run: npm run build --workspaces
 
-    - run: npm run build --workspaces
+      - run: npm test --workspaces
 
-    - run: npm test --workspaces
+      - name: Bump and Publish
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.email "busratemizyueek@gmail.com"
+          git config user.name "🏖️ Beachball"
 
-    - name: Bump and Publish
-      run: |
-        git config user.email "busratemizyueek@gmail.com"
-        git config user.name "🏖️ Beachball"
-       
-        trap "git remote set-url origin '$(git remote get-url origin)'" EXIT
-       
-        git remote set-url origin "https://$REPO_PAT@github.com/$GITHUB_REPOSITORY"
+          trap "git remote set-url origin '$(git remote get-url origin)'" EXIT
 
-        npm run release -- --token $NPM_TOKEN
-      env:
-        REPO_PAT: ${{ secrets.REPO_PAT }}
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-    
+          git remote set-url origin "https://$REPO_PAT@github.com/$GITHUB_REPOSITORY"
+
+          npm run release -- --token $NPM_TOKEN
+        env:
+          REPO_PAT: ${{ secrets.REPO_PAT }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
