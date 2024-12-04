@@ -2,6 +2,21 @@
   "name": "ds-priority-queue",
   "entries": [
     {
+      "date": "Wed, 04 Dec 2024 04:26:32 GMT",
+      "version": "0.2.0",
+      "tag": "ds-priority-queue_v0.2.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "busratemizyureek@gmail.com",
+            "package": "ds-priority-queue",
+            "commit": "75e381a8e1e3237cbc5e0b7b5b546905613155b8",
+            "comment": "min priority is added"
+          }
+        ]
+      }
+    },
+    {
       "date": "Thu, 28 Nov 2024 05:05:44 GMT",
       "version": "0.1.5",
       "tag": "ds-priority-queue_v0.1.5",

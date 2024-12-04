@@ -1,8 +1,16 @@
 # Change Log - ds-priority-queue
 
-<!-- This log was last generated on Thu, 28 Nov 2024 05:05:44 GMT and should not be manually modified. -->
+<!-- This log was last generated on Wed, 04 Dec 2024 04:26:32 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 0.2.0
+
+Wed, 04 Dec 2024 04:26:32 GMT
+
+### Minor changes
+
+- min priority is added (busratemizyureek@gmail.com)
 
 ## 0.1.5
 
