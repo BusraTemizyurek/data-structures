@@ -12,5 +12,6 @@ Welcome to the **Data Structures Library**, a modular and easy-to-use collection
 
 - [Priority Queue](./packages/priority-queue/README.md)
 - [Binary Search Tree](./packages/basic-binary-search-tree/README.md)
+- [Stack](./packages/stack/README.md)
 
 - More coming soon!

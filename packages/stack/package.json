@@ -1,0 +1,36 @@
+{
+  "name": "ds-stack",
+  "version": "0.0.0",
+  "description": "A lightweight, generic stack library designed for efficiency and clarity.",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "repository": {
+    "url": "https://github.com/BusraTemizyurek/data-structures/tree/main/packages/stack"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "author": "Busra Temizyurek",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  },
+  "keywords": [
+    "stack",
+    "data-structures",
+    "typescript",
+    "push",
+    "pop",
+    "LIFO",
+    "algorithms",
+    "optimization",
+    "generic",
+    "peek",
+    "size",
+    "isEmpty"
+  ]
+}
