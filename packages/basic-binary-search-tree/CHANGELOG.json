@@ -2,6 +2,21 @@
   "name": "basic-binary-search-tree",
   "entries": [
     {
+      "date": "Fri, 13 Dec 2024 04:29:26 GMT",
+      "version": "1.0.7",
+      "tag": "basic-binary-search-tree_v1.0.7",
+      "comments": {
+        "none": [
+          {
+            "author": "busratemizyureek@gmail.com",
+            "package": "basic-binary-search-tree",
+            "commit": "bf908f501cf12ca5c6e86bfdf12dd7b85a09f39c",
+            "comment": "tsconfig is moved to a shared location"
+          }
+        ]
+      }
+    },
+    {
       "date": "Thu, 28 Nov 2024 05:05:44 GMT",
       "version": "1.0.7",
       "tag": "basic-binary-search-tree_v1.0.7",

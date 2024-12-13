@@ -1,0 +1,20 @@
+{
+  "name": "basic-stack",
+  "entries": [
+    {
+      "date": "Fri, 13 Dec 2024 04:29:26 GMT",
+      "version": "1.0.0",
+      "tag": "basic-stack_v1.0.0",
+      "comments": {
+        "major": [
+          {
+            "author": "busratemizyureek@gmail.com",
+            "package": "basic-stack",
+            "commit": "bf908f501cf12ca5c6e86bfdf12dd7b85a09f39c",
+            "comment": "stack implemented"
+          }
+        ]
+      }
+    }
+  ]
+}

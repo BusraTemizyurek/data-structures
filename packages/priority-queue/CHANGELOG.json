@@ -2,6 +2,21 @@
   "name": "ds-priority-queue",
   "entries": [
     {
+      "date": "Fri, 13 Dec 2024 04:29:26 GMT",
+      "version": "0.2.0",
+      "tag": "ds-priority-queue_v0.2.0",
+      "comments": {
+        "none": [
+          {
+            "author": "busratemizyureek@gmail.com",
+            "package": "ds-priority-queue",
+            "commit": "bf908f501cf12ca5c6e86bfdf12dd7b85a09f39c",
+            "comment": "tsconfig is moved to a shared location"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 04 Dec 2024 04:26:32 GMT",
       "version": "0.2.0",
       "tag": "ds-priority-queue_v0.2.0",
