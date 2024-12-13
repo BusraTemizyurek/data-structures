@@ -1,0 +1,7 @@
+{
+  "type": "none",
+  "comment": "tsconfig is moved to a shared location",
+  "packageName": "ds-priority-queue",
+  "email": "busratemizyureek@gmail.com",
+  "dependentChangeType": "none"
+}
