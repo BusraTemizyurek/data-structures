@@ -7,13 +7,13 @@ A lightweight, TypeScript-based implementation of a stack data structure, provid
 Install the package via npm:
 
 ```bash
-npm install ds-stack
+npm install basic-stack
 ```
 
 or with Yarn:
 
 ```bash
-yarn add ds-stack
+yarn add basic-stack
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ yarn add ds-stack
 ### Importing the Stack Class
 
 ```typescript
-import { Stack } from "ds-stack";
+import { Stack } from "basic-stack";
 ```
 
 ### Creating a Stack

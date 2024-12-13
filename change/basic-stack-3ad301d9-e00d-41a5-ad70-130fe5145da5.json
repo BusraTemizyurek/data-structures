@@ -1,7 +1,7 @@
 {
   "type": "major",
   "comment": "stack implemented",
-  "packageName": "ds-stack",
+  "packageName": "basic-stack",
   "email": "busratemizyureek@gmail.com",
   "dependentChangeType": "patch"
 }
