@@ -65,7 +65,7 @@ describe("Stack", () => {
     }
     const stack = new Stack<MyObject>();
 
-    const obj: MyObject = { foo: "baz" };
+    const obj: MyObject = { foo: "bar" };
 
     stack.push(obj);
 
