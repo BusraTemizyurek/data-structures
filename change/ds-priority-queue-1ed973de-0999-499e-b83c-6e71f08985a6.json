@@ -1,7 +1,0 @@
-{
-  "type": "none",
-  "comment": "Fix tsconfig outdir and move readme out of src",
-  "packageName": "ds-priority-queue",
-  "email": "busratemizyureek@gmail.com",
-  "dependentChangeType": "none"
-}

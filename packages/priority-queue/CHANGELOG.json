@@ -2,6 +2,27 @@
   "name": "ds-priority-queue",
   "entries": [
     {
+      "date": "Sat, 14 Dec 2024 23:13:49 GMT",
+      "version": "0.2.0",
+      "tag": "ds-priority-queue_v0.2.0",
+      "comments": {
+        "none": [
+          {
+            "author": "busratemizyureek@gmail.com",
+            "package": "ds-priority-queue",
+            "commit": "872f96fcad12d3f470558efa35203446a390dc0d",
+            "comment": "Fix tsconfig outdir and move readme out of src"
+          },
+          {
+            "author": "busratemizyureek@gmail.com",
+            "package": "ds-priority-queue",
+            "commit": "2ccaf93e8a1da23e27d554f0921b024470aaa98a",
+            "comment": "tsconfig is moved to a shared location"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 04 Dec 2024 04:26:32 GMT",
       "version": "0.2.0",
       "tag": "ds-priority-queue_v0.2.0",
