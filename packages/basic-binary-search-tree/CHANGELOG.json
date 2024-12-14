@@ -2,6 +2,27 @@
   "name": "basic-binary-search-tree",
   "entries": [
     {
+      "date": "Sat, 14 Dec 2024 23:10:19 GMT",
+      "version": "1.0.7",
+      "tag": "basic-binary-search-tree_v1.0.7",
+      "comments": {
+        "none": [
+          {
+            "author": "busratemizyureek@gmail.com",
+            "package": "basic-binary-search-tree",
+            "commit": "27b438eac3516cae4cfd39dfb35947246afe0988",
+            "comment": "tsconfig is moved to a shared location"
+          },
+          {
+            "author": "busratemizyureek@gmail.com",
+            "package": "basic-binary-search-tree",
+            "commit": "27b438eac3516cae4cfd39dfb35947246afe0988",
+            "comment": "Fix tsconfig outdir and move readme out of src"
+          }
+        ]
+      }
+    },
+    {
       "date": "Thu, 28 Nov 2024 05:05:44 GMT",
       "version": "1.0.7",
       "tag": "basic-binary-search-tree_v1.0.7",

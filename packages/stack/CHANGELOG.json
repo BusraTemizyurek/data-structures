@@ -1,0 +1,28 @@
+{
+  "name": "basic-stack",
+  "entries": [
+    {
+      "date": "Sat, 14 Dec 2024 23:10:19 GMT",
+      "version": "1.0.1",
+      "tag": "basic-stack_v1.0.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "busratemizyureek@gmail.com",
+            "package": "basic-stack",
+            "commit": "27b438eac3516cae4cfd39dfb35947246afe0988",
+            "comment": "incrementing patch verison"
+          }
+        ],
+        "none": [
+          {
+            "author": "busratemizyureek@gmail.com",
+            "package": "basic-stack",
+            "commit": "27b438eac3516cae4cfd39dfb35947246afe0988",
+            "comment": "Fix version"
+          }
+        ]
+      }
+    }
+  ]
+}

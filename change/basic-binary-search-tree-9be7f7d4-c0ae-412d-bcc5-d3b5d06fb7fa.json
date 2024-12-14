@@ -1,7 +1,0 @@
-{
-  "type": "none",
-  "comment": "Fix tsconfig outdir and move readme out of src",
-  "packageName": "basic-binary-search-tree",
-  "email": "busratemizyureek@gmail.com",
-  "dependentChangeType": "none"
-}
