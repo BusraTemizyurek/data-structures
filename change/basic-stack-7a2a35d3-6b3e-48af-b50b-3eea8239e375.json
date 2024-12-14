@@ -1,7 +1,0 @@
-{
-  "type": "major",
-  "comment": "Basic stack implemented",
-  "packageName": "basic-stack",
-  "email": "busratemizyureek@gmail.com",
-  "dependentChangeType": "patch"
-}
