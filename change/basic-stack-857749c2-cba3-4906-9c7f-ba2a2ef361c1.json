@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "incrementing patch verison",
+  "packageName": "basic-stack",
+  "email": "busratemizyureek@gmail.com",
+  "dependentChangeType": "patch"
+}
